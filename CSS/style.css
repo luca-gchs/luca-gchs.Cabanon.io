@@ -24,6 +24,26 @@ body{
     background-color: #fff;
 }
 
+/* header */
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.tm-nav a:hover{
+    color: #3e99ff ;
+}
+
+
+/*
 .tm-header::after{
     content: " ";
     clear: both;
@@ -49,10 +69,10 @@ li{
 
 .tm-nav ul li{
     display: inline-block;
+    padding: 10px 20px;
 }
 
 .tm-nav ul li a{
-    padding: 10px 20px;
     text-decoration: none;
     color: #303030;
     line-height: 195px;
@@ -64,40 +84,7 @@ li{
 
 .home{
     color: #3e99ff;
-}
-
-
-/* price style */
-
-
-
-
-
-
-
-
-/* photo et descr style */
-
-
-
-
-
-/* acces style */
-
-
-
-
-
-
-/* tourism style */
-
-
-
-
-
-
-
-
+} */
 
 
 /* article */
@@ -143,4 +130,4 @@ img{
 .title{
     display: flex;
     justify-content: center;
-} 
+}

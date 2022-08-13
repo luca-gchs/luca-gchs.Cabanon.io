@@ -1,0 +1,146 @@
+
+
+/* index style */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.tm-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tm-header{
+    background-color: #fff;
+}
+
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.tm-logo{
+    float: left;
+}
+
+.tm-nav{
+    float: right;
+}
+
+.tm-nav ul{
+    margin-bottom: 0px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.tm-nav ul li{
+    display: inline-block;
+}
+
+.tm-nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #303030;
+    line-height: 195px;
+}
+
+.tm-nav ul li a:hover{
+    color: #3e99ff;
+}
+
+.home{
+    color: #3e99ff;
+}
+
+
+/* price style */
+
+
+
+
+
+
+
+
+/* photo et descr style */
+
+
+
+
+
+/* acces style */
+
+
+
+
+
+
+/* tourism style */
+
+
+
+
+
+
+
+
+
+
+/* article */
+
+
+
+p{
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.tm-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tm-article{
+    background: #fff;
+    padding: 30px;
+}
+
+
+
+/* price style calendar*/
+
+
+
+.calendar{
+    max-width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+} 

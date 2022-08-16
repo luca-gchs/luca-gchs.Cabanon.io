@@ -42,6 +42,13 @@ body{
     color: #3e99ff ;
 }
 
+/* style section and titles */
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*
 .tm-header::after{
@@ -127,7 +134,14 @@ img{
     margin-left: 350px;
 }
 
-.title{
-    display: flex;
-    justify-content: center;
+
+
+
+/* access style map */
+
+.map {
+    max-width: 50%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 380px;
 }

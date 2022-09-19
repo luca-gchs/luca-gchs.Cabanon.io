@@ -47,55 +47,11 @@ body{
 .title{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
-
-
-/*
-.tm-header::after{
-    content: " ";
-    clear: both;
-    display: block;
-    visibility: none;
-}
-
-.tm-logo{
-    float: left;
-}
-
-.tm-nav{
-    float: right;
-}
-
-.tm-nav ul{
-    margin-bottom: 0px;
-}
-
-li{
-    cursor: pointer;
-}
-
-.tm-nav ul li{
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-.tm-nav ul li a{
-    text-decoration: none;
-    color: #303030;
-    line-height: 195px;
-}
-
-.tm-nav ul li a:hover{
-    color: #3e99ff;
-}
-
-.home{
-    color: #3e99ff;
-} */
 
 
 /* article */
-
 
 
 p{
@@ -130,11 +86,33 @@ img{
 .calendar{
     max-width: 50%;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 350px;
+    margin-bottom: 70px;
+    margin-left: 550px;
+    border-radius: 10px;
 }
 
+/* Price cards */
 
+.boxes .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+  
+.box {
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+/* price calendar */
+.calendar {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* access style map */
@@ -143,5 +121,6 @@ img{
     max-width: 50%;
     margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 380px;
+    margin-left: 650px;
+    border-radius: 10PX;
 }

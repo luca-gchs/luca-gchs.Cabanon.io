@@ -110,8 +110,7 @@ img{
 
 /* price calendar */
 .calendar {
-    display: flex;
-    justify-content: center;
+    margin-left: 340px;
 }
 
 
@@ -121,6 +120,6 @@ img{
     max-width: 50%;
     margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 650px;
+    margin-left: 380px;
     border-radius: 10PX;
 }

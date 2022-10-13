@@ -77,20 +77,15 @@ img{
     padding: 30px;
 }
 
-
-
-/* price style calendar*/
-
-
-
-.calendar{
-    max-width: 50%;
-    margin-top: 30px;
-    margin-bottom: 70px;
-    margin-left: 550px;
-    border-radius: 10px;
+.calendar-wrap{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
+.calendar{
+    border-radius: 10px;
+}
 /* Price cards */
 
 .boxes .container {
@@ -98,7 +93,7 @@ img{
     justify-content: space-around;
     align-items: flex-end;
 }
-  
+
 .box {
     background: #0a51cc;
     color: #fff;
@@ -108,18 +103,16 @@ img{
     padding: 15px 20px;
 }
 
-/* price calendar */
-.calendar {
-    margin-left: 340px;
-}
 
 
 /* access style map */
 
-.map {
-    max-width: 50%;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    margin-left: 380px;
-    border-radius: 10PX;
+
+.map-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    border-radius: 10px;
 }

@@ -77,14 +77,21 @@ img{
     padding: 30px;
 }
 
-.calendar-wrap{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
 
 .calendar{
     border-radius: 10px;
+    margin-left: 40px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.calendar-wrap{
+    order: 2;
 }
 /* Price cards */
 
@@ -96,13 +103,21 @@ img{
 
 .box {
     background: #164e83;
+    max-width: 300px;
+    min-width: 300px;
     color: #fff;
     border-radius: 10px;
     margin: 20px 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     padding: 15px 20px;
+    text-align: center;
 }
 
+.box-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 
 /* access style map */

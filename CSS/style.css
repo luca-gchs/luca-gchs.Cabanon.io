@@ -175,3 +175,27 @@ img{
 
 /* photo description */
 
+.gallery {
+    width: 320px;
+    height: 240px;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+.image-grid-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .grid-image {
+    display: block;
+    flex-basis: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+   

@@ -185,27 +185,27 @@ img{
     margin-bottom: 30px;
 }
 
-.img-column1{
+.img-column1-exterior{
     display: flex;
 }
 
-.img-column2{
+.img-column2-terrasse{
     display: flex;
 }
 
-.img-column3{
+.img-column3-cuisine{
     display: flex;
 }
 
-.img-column4 {
+.img-column4-chambre-bas {
     display: flex;
 }
 
-.img-column5{
+.img-column5-ocre{
     display: flex;
 }
 
-.img-column6{
+.img-column6-bleu{
     display: flex;
 }
 

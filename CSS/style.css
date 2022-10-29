@@ -184,11 +184,28 @@ img{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.img-coloumn1{
+
+.img-column1{
     display: flex;
 }
 
-.img-coloumn2{
+.img-column2{
+    display: flex;
+}
+
+.img-column3{
+    display: flex;
+}
+
+.img-column4 {
+    display: flex;
+}
+
+.img-column5{
+    display: flex;
+}
+
+.img-column6{
     display: flex;
 }
 

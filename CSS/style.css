@@ -175,27 +175,26 @@ img{
 
 /* photo description */
 
-.gallery {
+.gallery img {
     width: 320px;
-    height: 240px;
+    padding: 12px;
 }
 
-.image-grid {
+.gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-coloumn1{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
+}
 
-.image-grid-2 {
+.img-coloumn2{
     display: flex;
-    flex-direction: column;
+}
+
+.gallery-inner{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
-  .grid-image {
-    display: block;
-    flex-basis: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-   

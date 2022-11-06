@@ -188,29 +188,10 @@ img{
     margin-bottom: 30px;
 }
 
-.img-column1-exterior{
+.img-column{
     display: flex;
 }
 
-.img-column2-terrasse{
-    display: flex;
-}
-
-.img-column3-cuisine{
-    display: flex;
-}
-
-.img-column4-chambre-bas {
-    display: flex;
-}
-
-.img-column5-ocre{
-    display: flex;
-}
-
-.img-column6-bleu{
-    display: flex;
-}
 
 .gallery-inner{
     display: flex;

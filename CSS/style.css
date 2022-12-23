@@ -178,10 +178,9 @@ img{
 
 /* photo description */
 
-.img-column div{
+.gallery img {
     width: 320px;
-    padding-right: 15px;
-
+    padding: 12px;
 }
 
 .img-column img {

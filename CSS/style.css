@@ -198,7 +198,9 @@ img{
 }
 
 
-
+.descr.light{
+    color: #fff;
+}
 .gallery-inner{
     display: flex;
     justify-content: center;

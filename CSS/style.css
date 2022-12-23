@@ -178,14 +178,14 @@ img{
 
 /* photo description */
 
-.gallery  .item {
-    max-width: 320px;
-   
-}
-.gallery img{
-    width: 100%;
+.gallery img {
+    width: 320px;
+    padding: 12px;
 }
 
+.img-column img {
+    width: 100%;
+}
 .gallery{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -193,7 +193,9 @@ img{
 
 .img-column{
     display: flex;
+    margin-top: 10px;
 }
+
 
 
 .gallery-inner{
@@ -201,4 +203,8 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.descr-wrap{
+    margin-top: 10px;
 }

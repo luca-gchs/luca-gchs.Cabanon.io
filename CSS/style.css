@@ -178,9 +178,12 @@ img{
 
 /* photo description */
 
-.gallery img {
-    width: 320px;
-    padding: 12px;
+.gallery  .item {
+    max-width: 320px;
+   
+}
+.gallery img{
+    width: 100%;
 }
 
 .gallery{

@@ -233,11 +233,25 @@ img{
 }
 
 .tourism-item{
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 .tourisme-link-wrap{
     margin-top: 5px;
+}
+
+.tourisme-link-wrap-office{
+    margin-left: 90px;
+}
+
+.tourisme-link-wrap-ferrata{
+    margin-left: 75px;
+
+}
+
+.tourisme-link-wrap-restaurant{
+    margin-left: 40px;
 }
 
 .tourisme-link{

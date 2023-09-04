@@ -22,9 +22,7 @@ chk.addEventListener('change', () => {
 
 
 
-const formOpenBtn = document.querySelector("#form-open"),
-maison = document.querySelector(".home"),
-formContainer = document.querySelector(".form_container"),
+const formContainer = document.querySelector(".form_container"),
 signupBtn = document.querySelector("#signup"),
 loginBtn = document.querySelector("#login"),
 pwShowHide = document.querySelectorAll(".pw_hide"); // constante nommées puis dirigées dans le code avec query
